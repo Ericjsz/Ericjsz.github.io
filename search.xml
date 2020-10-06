@@ -1,6 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>选择博客时的纠结</title>
+    <url>/2020/10/06/%E9%80%89%E6%8B%A9%E5%8D%9A%E5%AE%A2%E6%97%B6%E7%9A%84%E7%BA%A0%E7%BB%93/</url>
+    <content><![CDATA[<h1 id="选择博客时的纠结"><a href="#选择博客时的纠结" class="headerlink" title="选择博客时的纠结"></a>选择博客时的纠结</h1><p>本文提及到博客供应商：</p><ol>
+<li>新浪博客</li>
+<li>worldpress.com 博客</li>
+<li>谷歌博客</li>
+<li>GitHub静态博客</li>
+<li>lofter博客</li>
+</ol><ol>
+<li><h3 id="新浪博客"><a href="#新浪博客" class="headerlink" title="新浪博客"></a>新浪博客</h3></li>
+</ol><p>广告太多， 网络喷子太多，归结由平台过于庞大，各阶层的人参差不齐。会关键字屏蔽，而且对国外用户体验非常不好，还必须登录才可以浏览里面的内容。不过新浪是国内大公司，用户体量大， 同时监管力度也大，如果介意的话就绕路吧。</p><a id="more"></a>
+
+
+
+<ol start="2">
+<li><h3 id="worldpress-com-博客"><a href="#worldpress-com-博客" class="headerlink" title="worldpress.com 博客"></a>worldpress.com 博客</h3></li>
+</ol>
+<p>这个托管服务器厂家，一条龙服务。背靠worldpress，功能扩展性很强，当然是给钱的前提啦。国内访问速度一般，微信里面直接访问不了。</p>
+<ol start="3">
+<li><h3 id="谷歌博客"><a href="#谷歌博客" class="headerlink" title="谷歌博客"></a>谷歌博客</h3></li>
+</ol>
+<p>背靠谷歌，背墙也是肯定的。不过可以搭建代理桥之类的东西，不过就要花钱画精力在上面。邮件发博客的可玩性还是不错的。</p>
+<ol start="4">
+<li><h3 id="Github博客"><a href="#Github博客" class="headerlink" title="Github博客"></a>Github博客</h3></li>
+</ol>
+<p>背靠Github代码平台，稳是一定的，除非国内把Github给墙了。需要在搭建平台环境，需要一定的电脑操作技术。</p>
+<ol start="5">
+<li><h3 id="lofter博客"><a href="#lofter博客" class="headerlink" title="lofter博客"></a>lofter博客</h3></li>
+</ol>
+<p>新兴的博客平台，背靠网易。自己体验是会吞关键字的，体验很差。不过在手机上由app， 使用起来还是比较方便的。</p>
+]]></content>
+      <categories>
+        <category>随想</category>
+      </categories>
+      <tags>
+        <tag>博客</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>2020年九月份至年底 多伦多回国航班统计</title>
     <url>/2020/08/31/2020%E5%B9%B4%E4%B9%9D%E6%9C%88%E4%BB%BD%E8%87%B3%E5%B9%B4%E5%BA%95-%E5%A4%9A%E4%BC%A6%E5%A4%9A%E5%9B%9E%E5%9B%BD%E8%88%AA%E7%8F%AD%E7%BB%9F%E8%AE%A1/</url>
     <content><![CDATA[<h2 id="多伦多飞广州中转温哥华航班信息"><a href="#多伦多飞广州中转温哥华航班信息" class="headerlink" title="多伦多飞广州中转温哥华航班信息"></a>多伦多飞广州中转温哥华航班信息</h2><p>最后更新：20200831 （具有时效性，可能已经过时了）</p>
@@ -239,7 +278,7 @@
 </ol>
 ]]></content>
       <categories>
-        <category>读书</category>
+        <category>书评</category>
       </categories>
       <tags>
         <tag>无印良品管理笔记</tag>
@@ -709,6 +748,7 @@
 ]]></content>
       <categories>
         <category>教程</category>
+        <category>ios</category>
       </categories>
       <tags>
         <tag>ios</tag>
@@ -871,6 +911,7 @@
 <li><a href="https://send-anywhere.com/" target="_blank" rel="noopener">https://send-anywhere.com/</a></li>
 <li><a href="https://volafile.org/" target="_blank" rel="noopener">https://volafile.org/</a></li>
 <li><a href="https://dropfile.nl/" target="_blank" rel="noopener">https://dropfile.nl/</a></li>
+<li><a href="https://catbox.moe" target="_blank" rel="noopener">https://catbox.moe</a></li>
 </ol>
 <h4 id="在线接收SMS"><a href="#在线接收SMS" class="headerlink" title="在线接收SMS"></a>在线接收SMS</h4><ol>
 <li><a href="http://receivefreesms.com/" target="_blank" rel="noopener">http://receivefreesms.com/</a></li>
