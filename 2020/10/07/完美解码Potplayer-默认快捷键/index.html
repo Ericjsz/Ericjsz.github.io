@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+
+
+
+
+
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png?v=7.3.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png?v=7.3.0">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png?v=7.3.0">
+  <link rel="mask-icon" href="/images/logo.svg?v=7.3.0" color="#222">
+
+<link rel="stylesheet" href="/css/main.css?v=7.3.0">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css?v=4.7.0">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.css">
+  <link rel="stylesheet" href="/lib/pace/pace-theme-mac-osx.min.css?v=1.0.2">
+  <script src="/lib/pace/pace.min.js?v=1.0.2"></script>
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Muse',
+    version: '7.3.0',
+    exturl: false,
+    sidebar: {"position":"left","display":"hide","offset":12,"onmobile":true},
+    copycode: {"enable":true,"show_result":true,"style":"default"},
+    back2top: {"enable":true,"sidebar":false,"scrollpercent":true},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: true,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":true},
+    path: 'search.xml',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: 'Copy',
+      copy_success: 'Copied',
+      copy_failure: 'Copy failed'
+    }
+  };
+</script>
+
+  <meta name="description" content="完美解码Potplayer 默认快捷键 省略 #  快捷键                指令 “                播放-&amp;gt;跳略播放-&amp;gt;跳略播放 开|关 ‘                播放-&amp;gt;跳略播放-&amp;gt;跳略播放设置… ,                字幕-&amp;gt;字幕同步(帧率)-&amp;gt;滞后0.5 秒 Alt+,                字幕-">
+<meta name="keywords" content="快捷键">
+<meta property="og:type" content="article">
+<meta property="og:title" content="完美解码Potplayer 默认快捷键">
+<meta property="og:url" content="https://ericjsz.github.io/2020/10/07/完美解码Potplayer-默认快捷键/index.html">
+<meta property="og:site_name" content="EricJ&#39;s Blog">
+<meta property="og:description" content="完美解码Potplayer 默认快捷键 省略 #  快捷键                指令 “                播放-&amp;gt;跳略播放-&amp;gt;跳略播放 开|关 ‘                播放-&amp;gt;跳略播放-&amp;gt;跳略播放设置… ,                字幕-&amp;gt;字幕同步(帧率)-&amp;gt;滞后0.5 秒 Alt+,                字幕-">
+<meta property="og:locale" content="en">
+<meta property="og:updated_time" content="2020-10-07T22:07:48.832Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="完美解码Potplayer 默认快捷键">
+<meta name="twitter:description" content="完美解码Potplayer 默认快捷键 省略 #  快捷键                指令 “                播放-&amp;gt;跳略播放-&amp;gt;跳略播放 开|关 ‘                播放-&amp;gt;跳略播放-&amp;gt;跳略播放设置… ,                字幕-&amp;gt;字幕同步(帧率)-&amp;gt;滞后0.5 秒 Alt+,                字幕-">
+  <link rel="canonical" href="https://ericjsz.github.io/2020/10/07/完美解码Potplayer-默认快捷键/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: false,
+    isPost: true,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>完美解码Potplayer 默认快捷键 | EricJ's Blog</title>
+  <meta name="generator" content="Hexo 3.9.0">
+  
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-117088772-1"></script>
+  <script>
+    var host = window.location.hostname;
+    if (host !== "localhost" || !true) {
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-117088772-1');
+    }
+  </script>
+
+
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .motion-element,
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .logo,
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage" lang="en">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-wrapper">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">EricJ's Blog</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <button aria-label="Toggle navigation bar">
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+      <span class="btn-bar"></span>
+    </button>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+      
+      
+      
+        
+        <li class="menu-item menu-item-home">
+      
+    
+
+    <a href="/" rel="section"><i class="menu-item-icon fa fa-fw fa-home"></i> <br>Home</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-tags">
+      
+    
+
+    <a href="/tags/" rel="section"><i class="menu-item-icon fa fa-fw fa-tags"></i> <br>Tags</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-categories">
+      
+    
+
+    <a href="/categories/" rel="section"><i class="menu-item-icon fa fa-fw fa-th"></i> <br>Categories</a>
+
+  </li>
+      
+      
+      
+        
+        <li class="menu-item menu-item-archives">
+      
+    
+
+    <a href="/archives/" rel="section"><i class="menu-item-icon fa fa-fw fa-archive"></i> <br>Archives</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a href="javascript:;" class="popup-trigger">
+        
+          <i class="menu-item-icon fa fa-search fa-fw"></i> <br>Search</a>
+      </li>
+    
+  </ul>
+
+    
+
+</nav>
+  <div class="site-search">
+    <div class="popup search-popup">
+    <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-wrapper">
+    <input autocomplete="off" autocorrect="off" autocapitalize="none"
+           placeholder="Searching..." spellcheck="false"
+           type="text" id="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result"></div>
+
+</div>
+<div class="search-pop-overlay"></div>
+
+  </div>
+</div>
+    </header>
+
+    <main id="main" class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          <div id="content" class="content page-post-detail">
+            
+
+  <div id="posts" class="posts-expand">
+    
+
+  <article class="post" itemscope itemtype="http://schema.org/Article">
+  
+  
+  
+  <div class="post-block">
+    <link itemprop="mainEntityOfPage" href="https://ericjsz.github.io/2020/10/07/完美解码Potplayer-默认快捷键/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="name" content="EricJ">
+      <meta itemprop="description" content="">
+      <meta itemprop="image" content="/images/avatar.gif">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="EricJ's Blog">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">完美解码Potplayer 默认快捷键
+
+          
+        </h1>
+
+        <div class="post-meta">
+		
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              
+                
+              
+
+              <time title="Created: 2020-10-07 17:58:56 / Modified: 18:07:48" itemprop="dateCreated datePublished" datetime="2020-10-07T17:58:56-04:00">2020-10-07</time>
+            </span>
+          
+            
+
+            
+          
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-folder-o"></i>
+              </span>
+              <span class="post-meta-item-text">In</span>
+              
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing"><a href="/categories/教程/" itemprop="url" rel="index"><span itemprop="name">教程</span></a></span>
+
+                
+                
+              
+            </span>
+          
+
+          
+            <span id="/2020/10/07/完美解码Potplayer-默认快捷键/" class="post-meta-item leancloud_visitors" data-flag-title="完美解码Potplayer 默认快捷键" title="Views">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-eye"></i>
+              </span>
+              <span class="post-meta-item-text">Views: </span>
+              <span class="leancloud-visitors-count"></span>
+            </span>
+          
+  
+  <span class="post-meta-item">
+    
+      <span class="post-meta-item-icon">
+        <i class="fa fa-comment-o"></i>
+      </span>
+        
+      
+      <span class="post-meta-item-text">Valine: </span>
+    
+    <a title="valine" href="/2020/10/07/完美解码Potplayer-默认快捷键/#comments" itemprop="discussionUrl"><span class="post-comments-count valine-comment-count" data-xid="/2020/10/07/完美解码Potplayer-默认快捷键/" itemprop="commentCount"></span></a>
+  </span>
+  
+  
+          <br>
+            <span class="post-meta-item" title="Symbols count in article">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-file-word-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Symbols count in article: </span>
+              
+              <span>9.5k</span>
+            </span>
+          
+            <span class="post-meta-item" title="Reading time">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-clock-o"></i>
+              </span>
+              
+                <span class="post-meta-item-text">Reading time &asymp;</span>
+              
+              <span>9 mins.</span>
+            </span>
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+        <h1 id="完美解码Potplayer-默认快捷键"><a href="#完美解码Potplayer-默认快捷键" class="headerlink" title="完美解码Potplayer 默认快捷键"></a>完美解码Potplayer 默认快捷键</h1><blockquote>
+<p>省略 #</p>
+</blockquote>
+<h2 id="快捷键-指令"><a href="#快捷键-指令" class="headerlink" title="快捷键                指令"></a>快捷键                指令</h2><p> “                播放-&gt;跳略播放-&gt;跳略播放 开|关<br> ‘                播放-&gt;跳略播放-&gt;跳略播放设置…<br> ,                字幕-&gt;字幕同步(帧率)-&gt;滞后0.5 秒<br> Alt+,                字幕-&gt;字幕同步(帧率)-&gt;滞后50 秒</p>
+<a id="more"></a>
+
+<p> .                字幕-&gt;字幕同步(帧率)-&gt;超前0.5 秒<br> Alt+.                字幕-&gt;字幕同步(帧率)-&gt;超前50 秒<br> /                字幕-&gt;字幕同步(帧率)-&gt;复位<br> &lt;                字幕-&gt;字幕同步(帧率)-&gt;滞后0.5 秒</p>
+<p> #&gt;                字幕-&gt;字幕同步(帧率)-&gt;超前0.5 秒<br> [                播放-&gt;AB 区段循环-&gt;设定起点<br> Alt+[                播放-&gt;AB 区段循环-&gt;将起点步进 0.1 秒<br> \                播放-&gt;AB 区段循环-&gt;区段循环 开|关<br> Alt+\                播放-&gt;AB 区段循环-&gt;当前章节/标记/书签 区段循环<br> ]                播放-&gt;AB 区段循环-&gt;设定止点<br> Alt+]                播放-&gt;AB 区段循环-&gt;将止点步进 0.1 秒<br> `                屏幕-&gt;迷你尺寸<br> {                播放-&gt;AB 区段循环-&gt;解除起点<br> }                播放-&gt;AB 区段循环-&gt;解除止点<br> Backspace            播放-&gt;定位-&gt;重新开始<br> Shift+Backspace        播放-&gt;定位-&gt;结束前30秒<br> Ctrl+Backspace            播放-&gt;定位-&gt;中段<br> Alt+Backspace            DVD-&gt;标题菜单<br> Tab                配置/语言/其他-&gt;OSD信息<br> Shift+Tab            配置/语言/其他-&gt;简要信息<br> Enter                屏幕-&gt;全屏<br> Ctrl+Enter            屏幕-&gt;全屏+(拉伸)<br> Ctrl+Shift+Enter        屏幕-&gt;全屏(其他显示器)<br> Alt+Enter            屏幕-&gt;全屏<br> Ctrl+Alt+Enter            屏幕-&gt;全屏+(保持比例)<br> Space                播放-&gt;播放|暂停<br> PgUp                电视-&gt;下一频道<br> Shift+PgUp            上一 书签/章节<br> Ctrl+PgUp            电视-&gt;前一收看频道<br> Alt+PgUp            字幕-&gt;字幕风格-&gt;字体 +<br> PgDn                电视-&gt;上一频道<br> Shift+PgDn            下一 书签/章节<br> Ctrl+PgDn            电视-&gt;后一收看频道<br> Alt+PgDn            字幕-&gt;字幕风格-&gt;字体 -<br> End                播放-&gt;定位-&gt;下一对白<br> Home                播放-&gt;定位-&gt;上一对白<br> Ctrl+Home            播放-&gt;定位-&gt;当前字幕起点<br> Alt+Home            字幕-&gt;字幕风格-&gt;复位<br> ←                播放-&gt;定位-&gt;步退10 秒<br> Shift+←            播放-&gt;定位-&gt;步退1 分<br> Ctrl+←                播放-&gt;定位-&gt;步退30 秒<br> Ctrl+Shift+←            播放-&gt;定位-&gt;上一关键帧<br> Alt+←                字幕-&gt;字幕风格-&gt;左移<br> Ctrl+Alt+←            播放-&gt;定位-&gt;步退5 分<br> ↑                声音-&gt;音量 +<br> Shift+↑            声音-&gt;播放音量控制-&gt;主音量 +<br> Alt+↑                字幕-&gt;字幕风格-&gt;上移<br> Ctrl+Alt+↑            声音-&gt;系统音量-&gt;波形音量 +<br> Ctrl+Alt+Shift+↑        声音-&gt;系统音量-&gt;主音量 +<br> →                播放-&gt;定位-&gt;步进10 秒<br> Shift+→            播放-&gt;定位-&gt;步进1 分<br> Ctrl+→                播放-&gt;定位-&gt;步进30 秒<br> Ctrl+Shift+→            播放-&gt;定位-&gt;下一关键帧<br> Alt+→                字幕-&gt;字幕风格-&gt;右移<br> Ctrl+Alt+→            播放-&gt;定位-&gt;步进5 分<br> ↓                声音-&gt;音量 -<br> Shift+↓            声音-&gt;播放音量控制-&gt;主音量 -<br> Alt+↓                字幕-&gt;字幕风格-&gt;下移<br> Ctrl+Alt+↓            声音-&gt;系统音量-&gt;波形音量 -<br> Ctrl+Alt+Shift+↓        声音-&gt;系统音量-&gt;主音量 -<br> Insert                电视-&gt;最后收看频道<br> Ctrl+Insert            收藏-&gt;添加当前文件夹<br> Alt+Insert            收藏-&gt;添加当前文件<br> Delete                电视-&gt;跳转至指定频道…<br> Shift+Delete            播放-&gt;播放列表-&gt;删除-&gt;删除文件<br> Ctrl+Shift+Delete        播放-&gt;播放列表-&gt;删除-&gt;删除文件(+字幕)<br> 0                屏幕-&gt;自定义尺寸设置…<br> 1                屏幕-&gt;半倍屏<br> Alt+1                屏幕-&gt;显示器 30% 尺寸<br> 2                屏幕-&gt;1 倍屏<br> Alt+2                屏幕-&gt;显示器 45% 尺寸<br> 3                屏幕-&gt;1.5 倍屏<br> Alt+3                屏幕-&gt;显示器 60% 尺寸<br> 4                屏幕-&gt;2.0 倍屏<br> Alt+4                屏幕-&gt;显示器 75% 尺寸<br> 5                屏幕-&gt;最大化<br> 6                屏幕-&gt;最大化|还原<br> 7                屏幕-&gt;最大化+(过任务栏)|还原<br> 8                屏幕-&gt;无边框尺寸<br> 9                屏幕-&gt;自定义尺寸<br> A                声音-&gt;选择声音<br> Shift+A            声音-&gt;声音处理-&gt;语音增强<br> Alt+A                声音-&gt;选择声音-&gt;按序切换声音<br> Ctrl+Alt+A            配置/语言/其他-&gt;收尾处理-&gt;依次切换收尾方式<br> B                播放-&gt;AB 区段循环<br> Ctrl+B                视频-&gt;图像处理-&gt;软模糊<br> Alt+B                字幕-&gt;字幕风格-&gt;粗体<br> Ctrl+Alt+B            视频-&gt;下边距-&gt;按序切换边距<br> C                播放-&gt;播放速度-&gt;加速 +<br> Shift+C            声音-&gt;声音处理-&gt;晶化<br> Ctrl+C                视频-&gt;图像截取-&gt;复制当前源画面<br> Alt+C                视频-&gt;视频录制-&gt;录制视频…<br> Ctrl+Alt+C            视频-&gt;图像截取-&gt;复制当前实画面<br> D                播放-&gt;定位-&gt;上一帧<br> Shift+D            声音-&gt;声音处理-&gt;降噪<br> Ctrl+D                打开-&gt;DVD 设备<br> Alt+D                打开-&gt;设备设置…<br> Ctrl+Alt+D            打开-&gt;蓝光设备<br> E                视频-&gt;亮度 +1%<br> Shift+E            声音-&gt;均衡器<br> Ctrl+E                视频-&gt;图像截取-&gt;截存当前源画面<br> Alt+E                字幕-&gt;字幕浏览器…<br> Ctrl+Alt+E            视频-&gt;图像截取-&gt;截存当前实画面<br> F                播放-&gt;定位-&gt;下一帧<br> Ctrl+F                滤镜-&gt;滤镜/解码器管理…<br> Alt+F                字幕-&gt;字幕风格-&gt;字体设置…<br> G                播放-&gt;定位-&gt;手动定位…<br> Shift+G            声音-&gt;音轨-&gt;声音录制…<br> Ctrl+G                视频-&gt;图像截取-&gt;连续截图…<br> Alt+G                电视-&gt;频道控制-&gt;频道管理…<br> H                播放-&gt;章节/书签<br> Shift+H            声音-&gt;音调-&gt;低音<br> Ctrl+H                视频-&gt;图像处理-&gt;去块(提高画质)<br> Alt+H                字幕-&gt;显示字幕<br> I                视频-&gt;色彩度 -1%<br> Ctrl+I                视频-&gt;反交错-&gt;切换反交错方式<br> J                视频-&gt;3D 视频输出<br> Shift+J            声音-&gt;音调-&gt;高音<br> Ctrl+J                打开-&gt;摄像头/其他设备<br> K                视频-&gt;图像截取<br> Shift+K            声音-&gt;音调-&gt;默认音调<br> Ctrl+K                打开-&gt;数字 TV(BDA 设备)<br> Alt+K                视频-&gt;图像旋转-&gt;按序选择旋转方式<br> L                字幕-&gt;选择字幕<br> Shift+L            配置/语言/其他-&gt;语言<br> Ctrl+L                视频-&gt;图像处理-&gt;电平控制<br> Alt+L                字幕-&gt;选择字幕-&gt;依次选择字幕<br> M                声音-&gt;静音<br> Ctrl+M                视频-&gt;图像处理-&gt;瞬态降噪<br> Ctrl+Alt+M            声音-&gt;系统音量-&gt;静音<br> Ctrl+Alt+Shift+M        声音-&gt;系统音量-&gt;静音<br> N                电视-&gt;频道控制<br> Shift+N            声音-&gt;声音处理-&gt;规格化<br> Ctrl+N                视频-&gt;图像处理-&gt;3D 降噪<br> Alt+N                视频-&gt;图像截取-&gt;创建缩略图…<br> O                视频-&gt;色彩度 +1%<br> Ctrl+O                打开-&gt;打开文件…<br> Alt+O                打开-&gt;打开字幕…<br> P                播放-&gt;章节/书签-&gt;添加书签<br> Shift+P            视频-&gt;像素着色-&gt;调整尺寸前的着色切换<br> Ctrl+P                视频-&gt;图像处理-&gt;上下翻转<br> Alt+P                字幕-&gt;手动输入字幕…<br> Ctrl+Alt+P            视频-&gt;像素着色-&gt;调整尺寸后的着色切换<br> Q                视频-&gt;图像属性复位<br> Ctrl+Q                视频-&gt;裁剪/拉伸-&gt;图像缩放设置…<br> R                视频-&gt;对比度 -1%<br> Shift+R            声音-&gt;声音处理-&gt;混响<br> Ctrl+R                视频-&gt;图像处理-&gt;锐化<br> S                视频-&gt;像素着色<br> Ctrl+S                打开-&gt;采集器<br> Ctrl+Shift+S            字幕-&gt;保存字幕-&gt;按影片名称保存<br> Alt+S                字幕-&gt;保存字幕-&gt;回写SMI字幕<br> Ctrl+Alt+S            字幕-&gt;保存字幕-&gt;另存字幕为…<br> T                视频-&gt;对比度 +1%<br> Shift+T            声音-&gt;声音处理-&gt;左右声道互换<br> Ctrl+T                配置/语言/其他-&gt;置顶方式-&gt;切换最前端<br> U                视频-&gt;饱和度 +1%<br> Ctrl+U                打开-&gt;打开链接…<br> V                视频-&gt;选择图像<br> Shift+V            声音-&gt;声音处理-&gt;语音消除<br> Ctrl+V                打开-&gt;打开剪贴板<br> Alt+V                视频-&gt;选择图像-&gt;图像顺序选择<br> W                视频-&gt;亮度 -1%<br> Ctrl+W                打开-&gt;模拟TV<br> X                播放-&gt;播放速度-&gt;减速 -<br> Shift+X            声音-&gt;开启声音处理滤镜<br> Ctrl+X                视频-&gt;图像处理滤镜-&gt;依次切换图像处理滤镜<br> Y                视频-&gt;饱和度 -1%<br> Ctrl+Y                打开-&gt;重开当前/最后文件<br> Ctrl+Alt+Y            打开-&gt;重载字幕<br> Z                播放-&gt;播放速度-&gt;正常/之前的速度<br> Shift+Z            播放-&gt;定位-&gt;时间场景浏览…<br> Ctrl+Z                视频-&gt;图像处理-&gt;左右翻转<br> Alt+Z                播放-&gt;定位-&gt;章节/书签场景浏览…<br> Numpad 0            帧位-&gt;预置-&gt;选择预置顺序<br> Numpad 1            帧位-&gt;全帧 -<br> Ctrl+Alt+Numpad 1        屏幕-&gt;窗口定位-&gt;置于 ↙<br> Numpad 2            帧位-&gt;帧高 -<br> Ctrl+Numpad 2            帧位-&gt;偏移 ↓<br> Alt+Numpad 2            字幕-&gt;字幕风格-&gt;上下边距 -<br> Ctrl+Alt+Numpad 2        屏幕-&gt;窗口定位-&gt;位移 ↓<br> Ctrl+Alt+Numpad 3        屏幕-&gt;窗口定位-&gt;置于 ↘<br> Numpad 4            帧位-&gt;帧宽 -<br> Ctrl+Numpad 4            帧位-&gt;偏移 ←<br> Alt+Numpad 4            字幕-&gt;字幕风格-&gt;左右边距 -<br> Ctrl+Alt+Numpad 4        屏幕-&gt;窗口定位-&gt;位移 ←<br> Numpad 5            帧位-&gt;帧位 之前/复位<br> Ctrl+Numpad 5            帧位-&gt;帧位居中<br> Ctrl+Alt+Numpad 5        屏幕-&gt;窗口定位-&gt;外框居中<br> Numpad 6            帧位-&gt;帧宽 +<br> Ctrl+Numpad 6            帧位-&gt;偏移 →<br> Alt+Numpad 6            字幕-&gt;字幕风格-&gt;左右边距 +<br> Ctrl+Alt+Numpad 6        屏幕-&gt;窗口定位-&gt;位移 →<br> Ctrl+Alt+Numpad 7        屏幕-&gt;窗口定位-&gt;置于 ↖<br> Numpad 8            帧位-&gt;帧高 +<br> Ctrl+Numpad 8            帧位-&gt;偏移 ↑<br> Alt+Numpad 8            字幕-&gt;字幕风格-&gt;上下边距 +<br> Ctrl+Alt+Numpad 8        屏幕-&gt;窗口定位-&gt;位移 ↑<br> Numpad 9            帧位-&gt;全帧 +<br> Ctrl+Alt+Numpad 9        屏幕-&gt;窗口定位-&gt;置于 ↗<br> Add                帧位-&gt;全帧 +<br> Ctrl+Alt+Add            屏幕-&gt;窗口 +<br> Subtract            帧位-&gt;全帧 -<br> Ctrl+Alt+Subtract        屏幕-&gt;窗口 -<br> F1                关于…<br> Ctrl+F1            属性…<br> Ctrl+Alt+F1            直播-&gt;采集器I<br> F2                打开-&gt;打开文件夹…<br> Ctrl+Alt+F2            直播-&gt;采集器II<br> F3                打开文件…<br> Ctrl+Alt+F3            直播-&gt;采集器I开始<br> F4                关闭<br> Ctrl+Alt+F4            直播-&gt;采集器II开始<br> F5                选项…<br> Ctrl+F5            比例-&gt;依次切换比例模式<br> Ctrl+Alt+F5            直播-&gt;采集设置…<br> F6                列表…<br> Ctrl+F6            比例-&gt;依次切换比例<br> F7                控制…<br> F9                直播-&gt;聊天/浏览器…<br> F12                打开-&gt;简索-&gt;简索文件…<br> Ctrl+F12            打开-&gt;简索-&gt;简索菜单…<br> Alt+F12            打开-&gt;打开远程连接…<br> Scroll                配置/语言/其他-&gt;播放信息<br> Shift+,            声音-&gt;声音匹配(同步)-&gt;滞后 0.05 秒<br> Ctrl+,                字幕-&gt;字幕同步(帧率)-&gt;滞后5 秒<br> Ctrl+Alt+,            字幕-&gt;字幕同步(帧率)-&gt;上一字幕同步<br> Shift+.            声音-&gt;声音匹配(同步)-&gt;超前 0.05 秒<br> Ctrl+.                字幕-&gt;字幕同步(帧率)-&gt;超前5 秒<br> Ctrl+Alt+.            字幕-&gt;字幕同步(帧率)-&gt;下一字幕同步<br> Shift+/            声音-&gt;声音匹配(同步)-&gt;复位<br> Ctrl+[                播放-&gt;AB 区段循环-&gt;将起点步退 0.1 秒<br> Ctrl+Alt+[            播放-&gt;AB 区段循环-&gt;将循环区步退 0.1 秒<br> Shift+\            播放-&gt;AB 区段循环-&gt;编辑AB区段循环列表…<br> Ctrl+\                播放-&gt;AB 区段循环-&gt;循环当前字幕<br> Ctrl+]                播放-&gt;AB 区段循环-&gt;将止点步退 0.1 秒<br> Ctrl+Alt+]            播放-&gt;AB 区段循环-&gt;将循环区步进 0.1 秒</p>
+
+    </div>
+
+    
+    
+    
+        
+      
+        
+
+<div>
+<ul class="post-copyright">
+  <li class="post-copyright-author">
+    <strong>Post author:  </strong>EricJ</li>
+  <li class="post-copyright-link">
+    <strong>Post link: </strong>
+    <a href="https://ericjsz.github.io/2020/10/07/完美解码Potplayer-默认快捷键/" title="完美解码Potplayer 默认快捷键">https://ericjsz.github.io/2020/10/07/完美解码Potplayer-默认快捷键/</a>
+  </li>
+  <li class="post-copyright-license">
+    <strong>Copyright Notice:  </strong>All articles in this blog are licensed under <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" rel="noopener" target="_blank"><i class="fa fa-fw fa-creative-commons"></i>BY-NC-SA</a> unless stating additionally.</li>
+</ul>
+</div>
+
+      
+
+      <footer class="post-footer">
+          
+            
+          
+          <div class="post-tags">
+            
+              <a href="/tags/PotPlayer/" rel="tag"># PotPlayer</a>
+            
+              <a href="/tags/完美解码/" rel="tag"># 完美解码</a>
+            
+              <a href="/tags/快捷键/" rel="tag"># 快捷键</a>
+            
+          </div>
+        
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-next post-nav-item">
+              
+                <a href="/2020/10/07/关于hexo博客同级分类问题/" rel="next" title="关于hexo博客同级分类问题">
+                  <i class="fa fa-chevron-left"></i> 关于hexo博客同级分类问题
+                </a>
+              
+            </div>
+
+            <span class="post-nav-divider"></span>
+
+            <div class="post-nav-prev post-nav-item">
+              
+            </div>
+          </div>
+        
+      </footer>
+    
+  </div>
+  
+  
+  
+  </article>
+
+  </div>
+
+
+          </div>
+          
+    
+    <div class="comments" id="comments"></div>
+  
+
+        </div>
+          
+  
+  <div class="sidebar-toggle">
+    <div class="sidebar-toggle-line-wrap">
+      <span class="sidebar-toggle-line sidebar-toggle-line-first"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-middle"></span>
+      <span class="sidebar-toggle-line sidebar-toggle-line-last"></span>
+    </div>
+  </div>
+
+  <aside id="sidebar" class="sidebar">
+    <div class="sidebar-inner">
+        
+        
+        
+        
+      
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc" data-target="post-toc-wrap">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+          <div class="post-toc">
+            <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#完美解码Potplayer-默认快捷键"><span class="nav-number">1.</span> <span class="nav-text">完美解码Potplayer 默认快捷键</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#快捷键-指令"><span class="nav-number">1.1.</span> <span class="nav-text">快捷键                指令</span></a></li></ol></li></ol></div>
+          </div>
+        
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-overview">
+          <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <p class="site-author-name" itemprop="name">EricJ</p>
+  <div class="site-description motion-element" itemprop="description"></div>
+</div>
+  <nav class="site-state motion-element">
+      <div class="site-state-item site-state-posts">
+        
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">22</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-categories">
+        
+          
+            <a href="/categories/">
+          
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">14</span>
+        <span class="site-state-item-name">categories</span>
+        </a>
+      </div>
+    
+      
+      
+      <div class="site-state-item site-state-tags">
+        
+          
+            <a href="/tags/">
+          
+        
+        
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+        <span class="site-state-item-count">30</span>
+        <span class="site-state-item-name">tags</span>
+        </a>
+      </div>
+    
+  </nav>
+  <div class="links-of-author motion-element">
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://github.com/ericjsz" title="GitHub &rarr; https://github.com/ericjsz" rel="noopener" target="_blank"><i class="fa fa-fw fa-github"></i>GitHub</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="mailto:2787244042hui@gmail.com" title="E-Mail &rarr; mailto:2787244042hui@gmail.com" rel="noopener" target="_blank"><i class="fa fa-fw fa-envelope"></i>E-Mail</a>
+      </span>
+    
+      <span class="links-of-author-item">
+      
+      
+        
+      
+      
+        
+      
+        <a href="https://t.me/ericj_sz" title="telegram &rarr; https://t.me/ericj_sz" rel="noopener" target="_blank"><i class="fa fa-fw fa-telegram"></i>telegram</a>
+      </span>
+    
+  </div>
+  <div class="cc-license motion-element" itemprop="license">
+    
+  
+    <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" class="cc-opacity" rel="noopener" target="_blank"><img src="/images/cc-by-nc-sa.svg" alt="Creative Commons"></a>
+  </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-inner">
+        <div class="copyright">&copy; 2019 – <span itemprop="copyrightYear">2020</span>
+  <span class="with-love" id="animate">
+    <i class="fa fa-heart"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">EricJ</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-area-chart"></i>
+    </span>
+      <span class="post-meta-item-text">Symbols count total: </span>
+    
+    <span title="Symbols count total">24k</span>
+    <span class="post-meta-divider">|</span>
+    <span class="post-meta-item-icon">
+      <i class="fa fa-coffee"></i>
+    </span>
+      <span class="post-meta-item-text">Reading time total &asymp;</span>
+    
+    <span title="Reading time total">22 mins.</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io" class="theme-link" rel="noopener" target="_blank">Hexo</a> v3.9.0</div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">Theme – <a href="https://theme-next.org" class="theme-link" rel="noopener" target="_blank">NexT.Muse</a> v7.3.0</div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+
+    
+  <div class="back-to-top">
+    <i class="fa fa-arrow-up"></i>
+    <span>0%</span>
+  </div>
+  <div class="reading-progress-bar"></div>
+
+  </div>
+
+  
+    
+  
+  <script color='0,0,255' opacity='0.5' zIndex='-1' count='99' src="/lib/canvas-nest/canvas-nest-nomobile.min.js"></script>
+  <script src="/lib/jquery/index.js?v=3.4.1"></script>
+  <script src="//cdn.jsdelivr.net/gh/fancyapps/fancybox@3/dist/jquery.fancybox.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js?v=1.2.1"></script>
+  <script src="/lib/velocity/velocity.ui.min.js?v=1.2.1"></script>
+<script src="/js/utils.js?v=7.3.0"></script><script src="/js/motion.js?v=7.3.0"></script>
+<script src="/js/schemes/muse.js?v=7.3.0"></script>
+<script src="/js/next-boot.js?v=7.3.0"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+  <script src="/js/local-search.js?v=7.3.0"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+  
+
+
+  
+  <script src="/js/post-details.js?v=7.3.0"></script>
+
+
+
+<script>
+NexT.utils.getScript('//unpkg.com/valine/dist/Valine.min.js', () => {
+  var GUEST = ['nick', 'mail', 'link'];
+  var guest = 'nick,mail';
+  guest = guest.split(',').filter(item => {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#comments',
+    verify: false,
+    notify: false,
+    appId: '7GHKUcEcOwN1Hfji7An05yyv-MdYXbMMI',
+    appKey: 'geNGW20bFp4PMQ8kGva65zfR',
+    placeholder: '填写上邮箱可以接收到我的回复哦! Fill in the email box can receive my reply!',
+    avatar: 'mm',
+    meta: guest,
+    pageSize: '10' || 10,
+    visitor: true,
+    lang: '' || 'en',
+    path: location.pathname
+  });
+}, window.Valine);
+</script>
+
+</body>
+</html>
+<!-- 页面点击心形 -->
+<script type="text/javascript" src="/js/clicklove.js"></script>
+<!--崩溃欺骗-->
+<script type="text/javascript" src="/js/crash_cheat.js"></script>
